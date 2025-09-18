@@ -16,7 +16,7 @@ body{
 
 #header{
     height: 150px;
-    background-color: rgb(252, 54, 87);
+    background-color: rgb(250, 64, 8);
 }
 
 #logo{
@@ -44,4 +44,38 @@ body{
     text-shadow: 0px 2px 1px;
     transition: all 300ms;
 }
-#logo a
+
+#logo a:hover{
+    text-shadow: 0px 2px 1px #222222, 0px 0px 4px #01b1ca
+}
+#menu{
+    clear:both;
+    background-color: #010a0e;
+    color: aliceblue;
+    height:55px;
+    border-bottom: 4px solid #01b1ca
+}
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left: 25px;
+}
+#menu ul li{
+    line-height: 55px;
+    float: left;
+    border-right: 1px solid #363636;
+}
+
+#menu a{
+    display: block;
+    color: azure;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: all 300ms;
+}
+
+#menu a:hover{
+    background: #01b1ca;
+}
